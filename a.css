@@ -1,0 +1,275 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(58, 55, 55);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+.first{
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size:50px;
+    color:rgb(245, 243, 160);
+    font-family:"Oleo Script", sans-serif;
+    margin-left:35px;
+}
+.image{
+    height:90px;
+    margin:25px;
+}
+footer{
+    background-color: rgb(19, 19, 19);
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+div ul li a{
+    color:rgb(243, 243, 18);
+    text-decoration: none;
+  padding:15px;
+  margin:15px;
+}
+div ul{
+    list-style-type:none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+    font-size:23px;
+}
+div ul li a:hover{
+    background-color: yellow;
+    color:rgb(12, 12, 12);
+    border-radius:6px;
+}
+.home{
+    background-image: url(./ocean.jpg);
+    height:600px;
+    background-size:cover;
+    background-position: center;
+  
+    
+}
+.box{
+    display:block;
+    margin:0;
+    text-align: center;
+    /* opacity:0.7; */
+    background-color: rgba(43, 40, 40,0.8);
+    width:700px;
+    padding:20px;
+    box-shadow:2px 4px 8px rgb(36, 35, 35) ;
+    margin:auto;
+    margin-top:100px;
+    font-size:20px;
+    border-radius:6px;
+    font-family: 'Raleway', sans-serif;
+}
+.box h1{
+    font-size:50px !important;
+}
+.box h2{
+    font-size:20px;
+}
+.bb{
+    color:#FFFF;
+    opacity:1 !important;
+}
+button{
+    background-color: yellow;
+    font-size: 20px;
+padding:10px;
+border-radius:10px ;
+box-shadow:2px 4px 8px rgb(36, 35, 35) ;
+}
+.header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px;
+}
+.highlight{
+    font-family: 'Quicksand', sans-serif;
+    height:450px;
+    background:linear-gradient(180deg, rgb(227,225,253),rgb(160,243,240)); ;
+}
+button:hover{
+    cursor:pointer;
+    background-color:rgb(253, 225, 84);
+    
+}
+.h1{
+     /* font-family: "Oleo Script",sans-serif; */
+    padding: 20px;
+    padding-top:50px;
+    color:rgb(71, 69, 69);
+    text-align: center;
+    
+}
+.parent{
+    width:100%;
+    display:flex;
+    height:350px;
+    /* border:2px solid black;  */
+    justify-content: center;
+  
+}
+.item{
+   height:200px;
+   border-radius:10px;
+   box-shadow:2px 4px 8px rgb(36, 35, 35) ;
+width:90%;
+}
+.child{
+    display:inline;
+    margin:auto;
+    margin:0 20px;
+    height:250px;
+    
+  margin-bottom: 50px;
+  /* padding:10px; */
+}
+.child p{
+    color:rgb(155, 128, 128);
+    margin-top:10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.child strong{
+    color:rgb(44, 154, 58);
+    font-size: 20px;
+}
+.second{
+    box-sizing: border-box;
+    display:flex;
+    flex-wrap: wrap;
+    height:600px;
+    background-color: rgb(58, 55, 55);
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+    color:rgb(58, 55, 55);
+}
+
+.third{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:1220px;
+    background-color: rgb(58, 55, 55);
+    font-family: 'Quicksand', sans-serif;
+    color:rgb(58, 55, 55);
+}
+.fourth{
+    display:flex;
+    flex-wrap: wrap;
+     background-color: #FFFF; 
+    /* border:1px solid white; */
+    height:280px;
+    width:49%;
+    border-radius:6px;
+}
+.fifth{
+    margin-left: 2px;
+    display:flex;
+    flex-wrap: wrap;
+height:280px;
+width:100%;
+background-color: #FFFF; 
+border-radius:6px;
+}
+.sixth{
+    display:flex;
+    flex-wrap: wrap;
+   /* background-color: #FFFF; */
+   /* border:1px solid white; */
+   height:280px;
+   width:49%; 
+   border-radius:6px;
+}
+.sixth{
+    height:280px;
+width:49%;
+background-color: #FFFF; 
+margin-bottom: 20px;
+}
+.seventh{
+    /* border:1px solid rgb(12, 12, 12); */
+    width:50%;
+    height:300px;
+  
+}
+.eighth{
+    /* border:1px solid rgb(22, 21, 21); */
+    width:75%;
+    height:300px;
+}
+.seventh img{
+height:280px;
+width:100%;
+border-radius:6px 0px 0px 6px;
+}
+.ninth img{
+    height:280px;
+width:100%;
+border-radius:6px 0px 0px 6px;
+}
+.ninth{
+    /* border:1px solid rgb(22, 21, 21); */
+    width:24.5%;
+    height:300px;
+}
+.seventh h1{
+    margin-left:20px;
+    margin-top:20px;
+    font-size:25px ;
+}
+.seventh p{
+    margin-left:20px;
+    margin-top:20px;
+    font-size:17px;
+}
+.fifth h1{
+    margin-left:20px;
+    margin-top:20px;
+    font-size:25px ;
+}
+.fifth p{
+    margin-left:20px;
+    margin-top:20px;
+    font-size:17px;
+}
+.seventh a button{
+    background-color: #FFFF;
+    border:none;
+    box-shadow: none;
+    margin-top: 80px;
+    margin-left:55%;
+    color:rgb(64, 236, 230);
+    font-size: 15px;
+    
+}
+.eighth a button{
+    background-color:#FFFF;
+    border:none;
+    box-shadow: none;
+    margin-top: 60px;
+    margin-left:85%;
+    color:rgb(64, 236, 230);
+    font-size: 15px;
+    border-radius:6px;
+}
+.seventh a button:hover{
+background-color:rgb(191, 243, 241);
+}
+.eighth a button:hover{
+    background-color:rgb(191, 243, 241);
+}
